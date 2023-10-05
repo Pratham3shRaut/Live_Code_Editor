@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- <script src="/ace.js"></script> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+
+</head>
+
+<body>
+    <!-- <h1>welcome to live code editor</h1> -->
+    <div class="container">
+        <div class="inputs">
+            <label><box-icon name='html5' type='logo' color='#ffffff'></box-icon> HTML</label>
+            <textarea id="html-code"></textarea>
+
+            <label><box-icon name='css3' type='logo' color='#ffffff'></box-icon> CSS</label>
+            <textarea id="css-code"></textarea>
+
+            <label><box-icon name='javascript' type='logo' color='#ffffff'></box-icon> JAVA SCRIPT</label>
+            <textarea id="js-code"></textarea>
+        </div>
+        <div class="right">
+            <label> <box-icon name='play' color='#ffffff'></box-icon>OUTPUT</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+
+</html>
